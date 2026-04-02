@@ -20,11 +20,11 @@ const FooterSection = () => {
           height={512}
         />
         <h2 className="font-display text-3xl sm:text-4xl text-foreground italic">
-          Feliz 1 aninho!
+          Feliz 1 aninho, Heloísa!
         </h2>
         <p className="font-body text-muted-foreground mt-4 leading-relaxed">
           Que sua vida seja repleta de alegria, amor e muitas aventuras.
-          Você é o maior presente que já recebemos. 💕
+          Heloísa, você é o maior presente que já recebemos. 💕
         </p>
         <div className="mt-8 flex items-center justify-center gap-2">
           <span className="w-8 h-px bg-primary opacity-30" />

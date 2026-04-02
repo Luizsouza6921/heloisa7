@@ -47,9 +47,12 @@ const HeroSection = () => {
           className="text-center z-10 px-8"
         >
           <span className="text-gold-accent font-body text-sm tracking-[0.3em] uppercase">Celebrando</span>
-          <h1 className="font-display text-5xl sm:text-6xl text-foreground mt-1 leading-tight">
-            1 <span className="italic text-primary">aninho</span>
+          <h1 className="font-display text-4xl sm:text-6xl text-foreground mt-1 leading-tight">
+            Heloísa
           </h1>
+          <p className="font-display text-2xl sm:text-3xl text-primary italic mt-1">
+            faz 1 aninho!
+          </p>
         </motion.div>
       </motion.div>
 
