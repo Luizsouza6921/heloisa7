@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import PhotoGallery from "@/components/PhotoGallery";
 import FooterSection from "@/components/FooterSection";
@@ -7,9 +8,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
       <BackgroundMusic />
-      <HeroSection />
-      <PhotoGallery />
-      <FooterSection />
+      <Header />
+      <div id="hero"><HeroSection /></div>
+      <div id="galeria"><PhotoGallery /></div>
+      <div id="mensagem"><FooterSection /></div>
     </div>
   );
 };
