@@ -13,12 +13,26 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['"Playfair Display"', 'serif'],
+        body: ['Lato', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        rose: {
+          soft: "hsl(var(--rose-soft))",
+          medium: "hsl(var(--rose-medium))",
+        },
+        gold: {
+          soft: "hsl(var(--gold-soft))",
+          accent: "hsl(var(--gold-accent))",
+        },
+        sage: "hsl(var(--sage))",
+        cream: "hsl(var(--cream))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
